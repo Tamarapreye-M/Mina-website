@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #fff;
+}
+
+.hero-div, #sec-4 {
+    height: 100vh;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Rectangle-YZ9P6kWjMnUBNL6W.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero-card {
+    background: transparent;
+    border: none;
+}
+#first-heading {
+    font-size: 3rem; 
+}
+
+
+#first-main-cards .card, #sec-3 .card {
+    border: none;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+
+#sec-4{
+    height: 60vh;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/minattnvs/Frame-AGBpDkZaG5cRpbaw.png);
+}
+#sec-4 #second-heading{
+    font-size: 2.5rem;
+}
+
+#sec-4 input, .input-group{
+    /* opacity: 0.7;  this applies to text as well*/ 
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    background: rgba(249, 249, 249, 0.332)
+   
+}
+
+
+@media screen and (min-width: 768px){
+
+    #first-heading {
+        font-size: 6rem; 
+    }
+    #sec-4 #second-heading{
+        font-size: 4rem;
+    }
+    #sec-4 input, .input-group{
+        width: 25% !important;
+        margin-inline: auto;
+    }
+}
+
+
